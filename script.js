@@ -34,5 +34,5 @@ overlays[1].addEventListener('click', () => {
 });
 
 overlays[2].addEventListener('click', () => {
-  window.open('https://your-portfolio-link.com', '_blank');
+  window.open('https://portfolio-eosin-five-jfg75bxuhj.vercel.app/', '_blank');
 });
