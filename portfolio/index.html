@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ruth Kamithi | Web Designer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <a class="logo">Ruth<span>.</span></a>
+    <nav>
+      <a href="#hero" class="nav-item">Home</a>
+      <a href="#about" class="nav-item">About</a>
+      <a href="#portfolio" class="nav-item">Portfolio</a>
+      <a href="#blog" class="nav-item">Blog</a>
+      <a href="#contact" class="nav-item">Contact</a>
+    </nav>
+    <button class="header-btn" onclick="scrollToSection('contact')">Let's Talk</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-content">
+      <div class="left">
+        <h3 class="animate">Hi, I'm Ruth Kamithi</h3>
+        <h1 class="animate">Web <span>Designer</span></h1>
+        <p class="animate">
+          I craft modern, responsive, and beautiful websites that bring ideas to life. My goal is to make web experiences
+          engaging and functional.
+        </p>
+        <div class="cta-section animate">
+          <button class="cta-1" onclick="scrollToSection('portfolio')">Projects <i
+              class="fa-solid fa-code"></i></button>
+          <button class="cta-2" onclick="scrollToSection('contact')">Hire Me <i
+              class="fa-solid fa-arrow-up-right-from-square"></i></button>
+        </div>
+      </div>
+      <div class="right">
+        <img src="img/prof.jpg" alt="Ruth Kamithi" class="hero-img animate">
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <h2 class="section-title animate">About Me</h2>
+    <p class="animate">I’m a creative web designer focused on clean, modern designs. I turn concepts into fully functional,
+      user-friendly websites with smooth animations and responsive layouts. I specialize in frontend development and web design, creating responsive and user-friendly digital experiences. Always curious and learning, I enjoy bringing designs to life and making the web a more engaging place.</p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="portfolio">
+    <h2 class="section-title animate">Projects</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item animate">
+      <img src="img/ecommerce.webp">
+        <div class="overlay">ECOMMERCE WEBSITE </div>
+      </div>
+      <div class="portfolio-item animate">
+        <img src="img/card.webp">
+        <div class="overlay">MEMORY CARD GAME</div>
+      </div>
+      <div class="portfolio-item animate">
+        <img src="img/port.jpg" alt="Project 3">
+        <div class="overlay">PORTFOLIO</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2 class="section-title animate">Contact Me</h2>
+    <form class="animate">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Ruth Kamithi. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+
+</html>
