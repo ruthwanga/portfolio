@@ -26,7 +26,7 @@ const overlays = document.querySelectorAll('.portfolio-item .overlay');
 
 // Add click events
 overlays[0].addEventListener('click', () => {
-  window.open('iley-designs.local', '_blank');
+  window.open('https://crazy-novelist.localsite.io/', '_blank');
 });
 
 overlays[1].addEventListener('click', () => {
